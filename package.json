@@ -1,9 +1,12 @@
 {
   "name": "useOnOutsideClick",
   "version": "0.0.1",
-  "description": "A minimalistic & extensible validation library for javascript",
+  "description": "A React custom hook to detect outside click",
   "main": "libs/main.js",
-  "repository": "https://github.com/zestgeek/useOnOutsideClick.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zestgeek/useOnOutsideClick"
+  },
   "author": "Manoj Singh Negi",
   "license": "MIT",
   "keywords": [
@@ -14,13 +17,8 @@
     "outside click"
   ],
   "scripts": {
-    "dev": "./node_modules/.bin/webpack --config ./webpack.config.js --mode=development --watch",
-    "build": "./node_modules/.bin/webpack --config ./webpack.config.js --mode=production",
+    "build": "./node_modules/.bin/babel src --out-file index.js",
     "prepublish": "yarn build"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/zestgeek/useOnOutsideClick"
   },
   "bugs": {
     "url": "https://github.com/zestgeek/useOnOutsideClick/issues"
@@ -32,14 +30,8 @@
   "devDependencies": {
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.2.2",
-    "@babel/plugin-proposal-class-properties": "^7.2.3",
     "@babel/polyfill": "^7.2.5",
     "@babel/preset-env": "^7.2.3",
-    "babel-loader": "^8.0.4",
-    "webpack": "^4.28.2",
-    "webpack-cli": "^3.1.2",
-    "webpack-dev-server": "^3.1.13",
-    "react": "^16.8.1",
-    "react-dom": "^16.8.1"
+    "@babel/preset-react": "^7.0.0"
   }
 }
