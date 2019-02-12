@@ -1,6 +1,6 @@
 {
   "name": "on-outside-click-hook",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A React custom hook to detect clicks which triggers outside the element and then fire an event.",
   "main": "libs/main.js",
   "repository": {
