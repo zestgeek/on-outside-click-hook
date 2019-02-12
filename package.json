@@ -1,5 +1,5 @@
 {
-  "name": "useOnOutsideClick",
+  "name": "on-outside-click-hook",
   "version": "0.0.1",
   "description": "A React custom hook to detect outside click",
   "main": "libs/main.js",
