@@ -5,7 +5,7 @@
   "main": "libs/main.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zestgeek/useOnOutsideClick"
+    "url": "https://github.com/zestgeek/on-outside-click-hook"
   },
   "author": "Manoj Singh Negi",
   "license": "MIT",
@@ -14,14 +14,15 @@
     "react hooks",
     "OnOutsideClick",
     "reactjs",
-    "outside click"
+    "outside click",
+    "on-outside-click-hook"
   ],
   "scripts": {
     "build": "./node_modules/.bin/babel src --out-file index.js",
     "prepublish": "yarn build"
   },
   "bugs": {
-    "url": "https://github.com/zestgeek/useOnOutsideClick/issues"
+    "url": "https://github.com/zestgeek/on-outside-click-hook/issues"
   },
   "peerDependencies": {
     "react": "^16.8.1",
