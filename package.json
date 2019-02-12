@@ -18,7 +18,7 @@
     "on-outside-click-hook"
   ],
   "scripts": {
-    "build": "./node_modules/.bin/babel src --out-file index.js",
+    "build": "./node_modules/.bin/babel src --out-file libs/main.js",
     "prepublish": "yarn build"
   },
   "bugs": {
