@@ -41,6 +41,6 @@ const CustomComponent = () => {
 ```
 
 ### Contributers
-[<img src="http://zestgeek.com/img/logo.png" alt="zestgeek solutions" width="200"/>](http://zestgeek.com)
+[<img src="http://zestgeek.com/wp-content/uploads/Zestgeek-new-logo-2.png" alt="zestgeek solutions" width="200"/>](http://zestgeek.com)
 
 [<img src="http://www.recraftstudio.com/images/logo.png" alt="drawing" width="50"/>](http://www.recraftrelic.com)
